@@ -20,8 +20,6 @@ func main() {
 		rightValue, _ := strconv.Atoi(digits[0][2])
 		right = append(right, rightValue)
 	}
-	// sort.Ints(left)
-	// sort.Ints(right)
 	totalSimilarities := 0
 	for _, leftValue := range left {
 		leftSimilarities := 0
